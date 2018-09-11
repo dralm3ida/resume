@@ -1,0 +1,363 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncvext} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{blindtext}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage{fontawesome}
+\usepackage[utf8]{inputenc}
+\usepackage[english,portuguese]{babel}
+\selectlanguage{portuguese}
+
+
+\setcounter{tocdepth}{2} %subsections are added to the TOC
+\setcounter{secnumdepth}{4} %subsubsections are numbered
+
+%--------------------------------------------
+
+
+
+
+
+%------------------------------------------------
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{André} % Your first name
+\familyname{Rodrigues Almeida} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{R. Principal, Lote 75 \textendash  Viso Sul}{3500-390 Ranhados Viseu}
+\mobile{969136952}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{andralmeida0@gmail.com / andre.rodrigues@ua.pt}
+\homepage{https://github.com/r0drig}{https://github.com/r0drig}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/Foto} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	INTRO SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Introdução}
+
+% Intro, career objective and potential: q.b.
+\subsection{Sobre mim}
+\cvitem{}{Curso obtido em Engenharia de Eletrónica e Telecomunicações, a trabalhar numa organização tecnológica da área das telecomunicações. Com interesse profissional nas áreas de desenvolvimento de software de sistemas e aplicações web frontend.}
+
+% Compact personal info
+\subsection{Informação pessoal}
+
+
+\cvitem{Data de nascimento}{\mybirthday}
+\cvitem{Nacionalidade}{\mynationality}
+\cvitem{Residência}{\myaddress}
+\cvitem{\faPhone}{969136952}
+\cvitem{\faEnvelope}{andralmeida0@gmail.com / andre.rodrigues@ua.pt}
+\cvitem{\faGithub}{\url{https://github.com/r0drig}}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Competências}
+
+\subsection{Geral}
+
+\cvitem{Platarmas}{Windows / Linux}
+\cvitemwithcomment{Lingua}{Inglês}{Conversação fluente e competência em escrita e compreensão }
+%\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
+%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+\subsection{Linguagens de Programação}
+
+\cvitem{Competente em}{C, Javascript (framework AngularJS), \textbf{markup}(HTML, XML) \textbf{style sheet}(CSS)}
+\cvitem{Conhecimentos básicos em}{\textsc{java}, \cpp, MatLab}
+%\cvitem{Basic}{\textsc{java}, Adobe Illustrator}
+%\cvitem{Intermediate}{\textsc{python}, \textsc{html}, \LaTeX, OpenOffice, Linux, Microsoft Windows}
+%\cvitem{Advanced}{Computer Hardware and Support}
+
+\subsection{Ferramentas computacionais}
+
+\cvitem{}{Git, SVN, Ms-Office, LaTeX, Microsoft visual studio, Eclipse}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experiência Profissional}
+
+\subsection{Altice Labs}
+
+\cventry{16/08/2013--A decorrer}{Engenheiro de software}{\textsc{Altice Labs}}{Aveiro}{}{ 
+\begin{itemize}
+\item \textbf{Empregador} - Withus-Inovação e Tecnologia, Lda, Rua Dr. Mário Sacramento, Edificio Colombo I, 177, 1.o Q, 3810-106.
+\item \textbf{Descrição} - De momento encontro-me a trabalhar como prestador de serviços no departamento de Desenvolvimentos de Sistemas de Redes da Altice Labs - R. Eng. José Ferreira Pinto Basto, Aveiro, 3810-106 PORTUGAL. Desempenho funções de desenvolvedor de software no âmbito do grupo da Gestão Local de equipamentos de rede.
+\end{itemize}
+}
+
+\subsection{Projectos profissionais principais}
+
+\cventry{12-2016--a decorrer}{FGW (FiberGateway)}{}{}{}{ONT 4x4 + Gateway com serviços triple-play (HSI, VoIP e IPTV ou RF overlay analógico) em cenários:
+\begin{itemize}
+\item \textbf{FTTH};
+\item \textbf{B2B}.
+\newline{}
+\end{itemize} 
+\textbf{Envolvimento:} aplicação gráfica do produto -- aplicação Web (WebGui).
+\begin{itemize}
+\item Colaboração com a equipa de usabilidade no desenho da interface gráfica;
+\item Desenvolvimento e suporte da mesma em AngularJS.
+\end{itemize} 
+} 
+%\begin{itemize}
+%\item Learned how to make amazing coffee
+%\item Finally determined the reason for \textsc{PC LOAD LETTER}:
+%\begin{itemize}
+%\item Paper jam
+%\item Software issues:
+%\begin{itemize}
+%\item Word not sending the correct data to printer
+%\item Windows trying to print in letter format
+%\end{itemize}
+%\item Coffee spilled inside printer
+%\end{itemize}
+%\item Broke the office record for number of kitten pictures in cubicle
+%\end{itemize}}
+
+%------------------------------------------------
+
+\cventry{11-2014--a decorrer}{OLT}{}{}{}{Equipamentos de core da rede com tecnologia Ethernet, GPON e NGPON2, que permite gerir equipamentos terminais (ONUs).
+\newline{}\newline{}
+\textbf{Envolvimento:} Envolvido num grupo de 4 pessoas no suporte da interface gráfica do produto: aplicação Web (WebGui). Desenvolvido em AngularJs.
+}
+
+%------------------------------------------------
+
+\cventry{10-2013--a decorrer}{uMSAN48V}{}{}{}{Equipamento terminal com tecnologia GPON e Ethernet de ‘uplink’ que permite a reutilização das redes de cobre já existentes para disponibilizar serviços de ‘triple play’ (voz, dados e vídeo).
+\newline{}\newline{}
+\textbf{Envolvimento:} Envolvido num grupo de 3 pessoas nas seguintes aplicações:
+\begin{itemize}
+\item Aplicação de gestão de equipamento (backend e regras de negócio); \item Aplicação CGI de parser XML;
+\item Aplicação cliente web (WebTi).
+\end{itemize}
+Desenvolvimento em C e javascript.
+}
+
+%------------------------------------------------
+
+\cventry{08-2013--11-2014}{RFO – Radio Frequency Overlay.)}{}{}{}{Equipamento de transporte de sinais de TV analógica sobre fibra ótica.
+\newline{}\newline{}
+\textbf{Envolvimento:} Desenvolvimento de aplicação CLI em C para interação (consulta de estados e configurações) do equipamento.
+}
+
+%------------------------------------------------
+
+\subsection{Projectos profissionais secundários}
+
+\cventry{05-2018--a decorrer}{Trakiii}{realização do projecto no âmbito do \href{http://www.alticelabs.com/pt/338-hackathon-altice-labs-2018-hal2018.html}{HAL2018}}{}{}{\textbf{Objectivo:} Realização de um sistema que permita detectar através de uma câmara e estimar o tamanho médio de uma fila de pessoas, bem como o tempo médio de espera para o atendimento. Cenário utilizado foi a cantina do campus da Altice Labs.
+\newline{}\newline{}
+\textbf{Envolvimento:} Envolvido num grupo de 4 pessoas na idealização e desenvolvimento do algoritmo de processamento de imagem e calculo da estimativa de ocupação de fila. Desenvolvimento do core do sistema em \cpp, com recurso à biblioteca de processamento de imagem OpenCV.
+}
+
+%------------------------------------------------
+%\subsection{Miscellaneous}
+
+%\cventry{2010--2011}{}{}{}{}{Spent some time finding myself. This was a courageous endeavour that didn't have a job title. It was quite important to my overall development though so I'm adding it to my CV. Also it explains the gap in my otherwise stellar CV.}
+
+%\cventry{2009--2010}{Computer Repair Specialist}{Buy More}{Burbank}{}{Worked in the Nerd Herd and helped to solve computer problems. Allowed me to become expert in all forms of martial arts and weaponry.}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC FORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Formação Académica}
+
+\cventry{2007--2013}{Ensino superior}{Universidade de Aveiro}{grau de \emph{Mestre}}{}{Mestrado Integrado de Engenharia Eletrónica e Telecomunicações.
+\newline
+\newline
+\textbf{Dissertação de Mestrado:}
+\begin{itemize}
+\item \textbf{Nome:} Reserva de recursos para Automotive Ethernet; 
+\item \textbf{Descrição:} Desenvolvimento de simulações em
+OMNeT++ do mecanismo de reserva de recursos SRP –
+Stream Reservation Protocol. Modelos construídos em C++ sobre a framework INET e execução de simulações no cenário de redes Automotive Ethernet.
+\end{itemize}
+} 
+
+\cventry{2004--2007}{Ensino secundário}{Escola Secundária Alves Martins}{Viseu}{}{Ciências e Tecnologias}
+
+
+%\cventry{2011--2012}{Masters of Commerce}{The University of California}{Berkeley}{\textit{GPA -- 8.0}}{First Class Honours}  % Arguments not required can be left empty
+%\cventry{2007--2010}{Bachelor of Business Studies}{The University of California}{Berkeley}{\textit{GPA -- 7.5}}{Specialized in Commerce}
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%----------------------------------------------------------------------------------------
+%	EVENTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Eventos}
+
+\cventry{21 e 22 de Fevereiro de 2018}{Hackathon Altice Labs}{realizado pelo grupo Future Labs da Altice Labs}{\textbf{Mote:} resolver um problema específico do Campus da Altice Labs, de forma a torná-lo mais prático, sustentável e dinâmico. Contribuir para novos produtos e serviços Smart Living}{}{
+Participação do evento numa equipa de 3 elementos tendo alcançado o 2º lugar -- \href{http://www.alticelabs.com/pt/338-hackathon-altice-labs-2018-hal2018.html}{HAL2018}
+}
+
+%----------------------------------------------------------------------------------------
+%	COMPLEMENTARY FORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Formação Complementar}
+
+\cventry{15/06/2018}{Workshop}{UNITY}{realizado na Altice Labs}{}{Introdução à ferramenta  UNITY (plataforma para criação de aplicações interativas)}
+
+\cventry{07/02/2018}{Workshop}{LUNA}{realizado na Altice Labs}{}{Como construir aplicações interativas para televisão, usando a plataforma LUNA}
+
+\cventry{2016}{Curso livre de “Japonês”}{realizado na Universidade de Aveiro}{com duração de 48 horas}{}{}
+
+\cventry{2015--2016}{Curso online de “Full Stack Web Development”}{da Universidade de Hong Kong}{patrocinado pela plataforma de educação “Coursera”}{}{
+\begin{itemize}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/AY6KCDJD9EE6}{HTML, CSS and JavaScrip}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/BDC6WHU2GNEW}{Front-End Web UI Frameworks and Tools}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/8VVLDFKSPXYD}{Front-End JavaScript Frameworks: AngularJS}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/FNYJFTJPTRXS}{Multiplatform Mobile App Development with Web
+Technologies}
+\end{itemize}
+}
+
+\cventry{2015}{Curso online de “Software Security”}{da Universidade de Maryland}{patrocinado pela plataforma de educação “Coursera”}{}{
+\begin{itemize}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/GHDH797YBT}{Software Security}
+\end{itemize}
+}
+
+\cventry{2012}{Workshop}{Automação}{Empresa Bresimar em Cacia}{}{}
+
+\cventry{2012}{Curso livre de “Alemão”}{realizado na Universidade de Aveiro}{com duração de 60 horas}{correspondente ao nível A1.1 do QECR}{}
+
+\cventry{2007}{Curso de “Inglês”}{Escola International House}{Viseu}{}{Realização do exame da Universidade de Cambridge FCE -- “First Certificate in English” correspondente ao nível B2 do QECR.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\cvitem{2011}{School of Business Postgraduate Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Languages}
+
+%\cvitemwithcomment{English}{Mothertongue}{}
+%\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
+%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvlistdoubleitem{Piano}{Chess}
+%\cvlistdoubleitem{Cooking}{Dancing}
+%\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
