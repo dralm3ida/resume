@@ -21,7 +21,7 @@
 
 \newcommand{\mycontacts}{969136952}
 
-\newcommand{\myaddress}{R. Principal, Lote 75 \textendash  Viso Sul \textendash 3500-390 Ranhados Viseu}
+\newcommand{\myaddress}{Aveiro \textendash  Portugal}
 
 \newcommand{\cpp}{C\texttt{++}}
 
