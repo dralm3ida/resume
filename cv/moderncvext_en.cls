@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{moderncvext}[2017/06/30 moderncvext LaTeX class]
+\ProvidesClass{moderncvext_en}[2017/06/30 moderncvext_en LaTeX class]
 
 \LoadClass{moderncv}
 
