@@ -1,0 +1,311 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncvext_en} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{blindtext}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage{fontawesome}
+\usepackage[utf8]{inputenc}
+\usepackage[english,portuguese]{babel}
+\selectlanguage{portuguese}
+
+
+\setcounter{tocdepth}{2} %subsections are added to the TOC
+\setcounter{secnumdepth}{4} %subsubsections are numbered
+
+%--------------------------------------------
+
+
+
+
+
+%------------------------------------------------
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{André} % Your first name
+\familyname{Rodrigues Almeida} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Aveiro}{Portugal}
+\mobile{969136952}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{andre.r.alm3ida@gmail.com / andre.rodrigues@ua.pt}
+\homepage{https://www.linkedin.com/in/andre-r-almeida/}{https://www.linkedin.com/in/andre-r-almeida/}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/Foto} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	INTRO SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+
+% Intro, career objective and potential: q.b.
+\subsection{About me}
+\cvitem{}{Professional with several years of experience in software development in Frontend and Backend. I am interested in deepening my knowledge in software systems conception and design, both in arquitectural and implementation levels.}
+
+% Compact personal info
+\subsection{Personal Info}
+
+\cvitem{Nationality}{\mynationality}
+\cvitem{Residence}{\myaddress}
+\cvitem{\faPhone}{969136952}
+\cvitem{\faEnvelope}{andre.r.alm3ida@gmail.com / andre.rodrigues@ua.pt}
+\cvitem{\faLinkedinSquare}{\url{https://www.linkedin.com/in/andre-r-almeida/}}
+\cvitem{\faGithub}{\url{https://github.com/dralm3ida}}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\subsection{General}
+
+\cvitem{Platforms}{Windows / Linux}
+\cvitem{Programming languages}{\textsc{java}, Js, C, \cpp, \textsc{php}, \textsc{Python}, Shell Script, \textbf{markup}(HTML\faHtml5, XML) \textbf{style sheet}(CSS)}
+\cvitem{Frameworks \& DB}{SpringBoot, Hibernate, SQLite, PostgreSQL, AngularJS, FastAPI}
+\cvitem{Tools}{Git, SVN, Ms-Office, LaTeX, VSCode, Intellij IDEA, JIRA)}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Professional Experience}
+
+\subsection{Altice Labs - Aveiro}
+\cventry{06-2021--Current}{Fullstack Software Engineer}{}{}{}{
+\textbf{Projects:}
+\begin{itemize}
+\item \textbf{VNOs:} (Virtual Network Operator) - Ongoing development of the back-end of two applications within the scope of network virtualization for operators. \emph{VNO Manager}:application that intends to abstract the physical network of the InP (Infrastructure Provider) into a virtual network so that the VNOs can share the same physical resources independently. \emph{VNO Portal}: each operator's network management application, so that it can manage its operations. \textbf{Tecnologias:} JAVA e Spring Boot.
+\item \textbf{CPEs} Project monitoring and management.
+\newline{}
+\end{itemize} 
+}
+
+%------------------------------------------------
+
+\cventry{06-2015--06-2021}{Front End Software Engineer}{}{}{}{
+\textbf{Projetos:}
+\begin{itemize}
+\item \textbf{CPEs:} (Costumer Provided Equipment) - Responsible for the design and development of the \emph{WebGUI} client application for the various GPON (FiberGateway), DOCSIS, Entry Level terminal equipment developed at Altice Labs; Responsible for the technological follow-up of the product, namely in Smart Wi-Fi technology and its integration in the \emph{WebGUI}. \textbf{Tecnologias:} AngularJS;
+\item \textbf{Smart Wi-Fi Extendor:} Responsible for the design and development of the client's WebGUI application. \textbf{Technologies:} AngularJS;
+\item \textbf{AGORA:} involved in the development of the Front end resource manager application for managing network equipment. \textbf{Technologies:} AngularJS;
+\item \textbf{WDG:} (Web Develpment Group) - participation in an informal company group with members from various departments with the aim of sharing knowledge of new technologies and methodologies in the context of web development.
+\item \textbf{OLT:} Product client web application development \emph{WebTi}. \textbf{Technologies:} AngularJS;
+\item \textbf{uMSAN48V:} - Involved in WebTi client web application development. \textbf{Technologies:} HTML, JS, CSS;
+\newline{}
+\end{itemize} 
+}
+
+%------------------------------------------------
+
+\cventry{08-2013--11/2016}{Embedded Systems Software Engineer}{}{}{}{
+\textbf{Projetos:}
+\begin{itemize}
+\item \textbf{uMSAN48V:} ("triple play" terminal equipment for reuse of existing copper network) - Development of local management applications \emph{Manager} and \emph{CGI XML Parser}. \textbf{Technologies:} C, XML.
+\item \textbf{OLT:} (Optical Line Terminator) - Occasionally involved in the development of the product's core \emph{Manager} and \emph{CGIs} applications. \textbf{Technologies:} C, XML.
+\item \textbf{RFO:} (Radio Frequency Overlay) - Development of CLI application for equipment management. \textbf{Technologies:} C.
+\newline{}
+\end{itemize} 
+}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC FORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Academic education}
+
+\cventry{2020--2020}{microMBA Postgraduate}{Aveiro University}{}{}{
+Development of skills in the area of business management, more specifically in marketing, organizational behavior, strategy, operations and finance.
+}
+
+\cventry{2007--2013}{Higher education}{Aveiro University}{\emph{master's} degree}{}{Integrated Master of Electronic Engineering and Telecommunications.
+\newline
+\newline
+\textbf{Masters dissertation:}
+\begin{itemize}
+\item \textbf{Name:} Automotive Ethernet Resource Reservation; 
+\item \textbf{Description:} Development of simulations of the resource reservation mechanism SRP (Stream Reservation Protocol) in OMNeT++. Models and simulations built in \cpp over the INET framework in automotive Ethernet network scenarios.
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	EVENTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Events}
+
+%\cventry{7, 8 e 9 de Setembro de 2018}{\href{https:sunsethackathon.com/}{Sunset Hackathon 2018}}{realizado pelo %\href{https://hardwarecity.org/}{Hardware city}}{\textbf{Tema:} %Domótica; PLC´s; Sensores; IoT;}{}{\textbf{Desafio:} 
+%}
+
+\cventry{7, 8 and 9 of September 2018}{\href{https://sunsethackathon.com}{Sunset Hackathon 2018}}{organized by \href{https://hardwarecity.org/}{Hardware city}}{\textbf{Themes:} Home automation; PLCs; Sensors; IoT}{}{\textbf{Challenge:} Participation in a team of 5 elements where it was proposed the development of a light control system (prototype) in a hotel room controlled by voice commands and through automatic detection of occupancy of space and movement in the room. Link: \url{https://github.com/r0drig/roomControlLights}
+\newline
+}
+
+\cventry{21 and 22 of February 2018}{Hackathon Altice Labs}{organized by Future Labs of Altice Labs}{\textbf{Theme:} solve a specific problem related to Altice Labs Campus, in order to make it more practical, sustainable and dynamic. Contribute to new smart living products and services.}{}{
+Participation in a team of 3 elements, having reached 2nd place -- \href{http://www.alticelabs.com/pt/338-hackathon-altice-labs-2018-hal2018.html}{HAL2018}
+\newline
+}
+
+%----------------------------------------------------------------------------------------
+%	COMPLEMENTARY FORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Additional formation}
+
+\cventry{04-07-2019}{Workshop}{Kubernetes}{organized by Altice Labs}{}{Platform to orchestrate services in containers and automate its deployment.}
+
+\cventry{30-05-2019}{Techdays}{100º Tech Day Training Session about Docker technology}{promoted by Altice Labs}{}{How to deploy applications in micro-service based architectures.}
+
+\cventry{08-09-2018}{Workshop}{Raspberry Pi}{promoted by Hardware city}{}{Introduction to raspberry pi and GPIOs.}
+
+\cventry{15/06/2018}{Workshop}{UNITY}{organized by Altice Labs}{}{Introduction to the UNITY tool (interactive application creation platform).}
+
+\cventry{07/02/2018}{Workshop}{LUNA}{organized by Altice Labs}{}{How to build interactive television applications using the LUNA platform.}
+
+\cventry{2016}{Free Japanese Course}{held at the University of Aveiro}{with the duration of 48 hours}{}{}
+
+\cventry{2015--2016}{Online course in “Full Stack Web Development”}{from the University of Hong Kong}{sponsored by the "Coursera" education platform.}{}{
+\begin{itemize}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/AY6KCDJD9EE6}{HTML, CSS and JavaScrip}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/BDC6WHU2GNEW}{Front-End Web UI Frameworks and Tools}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/8VVLDFKSPXYD}{Front-End JavaScript Frameworks: AngularJS}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/FNYJFTJPTRXS}{Multiplatform Mobile App Development with Web
+Technologies}
+\end{itemize}
+}
+
+\cventry{2015}{Online course in “Software Security”}{from the Universidade of Maryland}{sponsored by the "Coursera" education platform.}{}{
+\begin{itemize}
+\item \href{https://www.coursera.org/account/accomplishments/certificate/GHDH797YBT}{Software Security}
+\end{itemize}
+}
+
+\cventry{2012}{Workshop}{Automation}{Held in Bresimar company in Cacia}{}{}
+
+\cventry{2012}{Free German Course}{held at the University of Aveiro}{with the duration of 60 hours}{corresponding to the A1.1 level of QECR}{}
+
+\cventry{2007}{English course}{International House school}{Viseu}{}{FCE -- “First Certificate in English” Achievement from the University of Cambridge, corresponding to the B2 level of QECR.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\cvitem{2011}{School of Business Postgraduate Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Languages}
+
+%\cvitemwithcomment{English}{Mothertongue}{}
+%\cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
+%\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvlistdoubleitem{Piano}{Chess}
+%\cvlistdoubleitem{Cooking}{Dancing}
+%\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
